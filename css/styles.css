@@ -68,11 +68,15 @@ color: #434455;
 
 .title-container {
     display: block;
-    background-color: #2e2f42;
 }
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.section-title {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #2e2f42;
 }
 .button {
 font-family: "Roboto", sans-serif;
@@ -90,8 +94,6 @@ flex-direction: row;
 gap: 10px;
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
-height: 56px;
 margin: 0 635px 68px 636px;
 }
 .button:hover,
