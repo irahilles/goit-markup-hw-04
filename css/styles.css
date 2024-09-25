@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+}
+.logo-studio-header {
+    color: #2e2f42;
+}
+.nav-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.address {
+font-style: normal;
+}
+.address-list {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.address-list:hover,
+.address-list:focus {
+   color: #404bbf;
+}
+
+.logo:hover,
+.logo:focus
+ {
+    color: #4D5AE5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+   color: #404bbf;
+}
+.button {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+cursor: pointer;
+}
+.button:hover,
+button:focus {
+   background-color: #404BBF;
+}
+.title-main {
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.title-section {
+    background-color: #2e2f42;
+}
+.secondary-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+.paragraf {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer-text {
+   font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd; 
+}
+.footer {
+    background-color: #2e2f42;
+}
+h3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.logo-studio {
+    color: #f4f4fd;
+}
+li {
+    list-style-type: none;
+}
+.team-section {
+    background-color: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF;
+}
+.header {
+    display: flex;
+}
+.nav {
+    display: flex;
+}
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
