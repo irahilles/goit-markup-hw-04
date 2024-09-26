@@ -118,6 +118,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+display: none;
 }
 .paragraf {
     font-weight: 400;
@@ -149,10 +150,12 @@ color: #2e2f42;
 li {
     list-style-type: none;
 }
-.team-container {
+.team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
-.team-list {
+.team-list-item {
     background-color: #FFFFFF;
 }
 
@@ -179,4 +182,32 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
 margin: 24px 156px 24px 332px; 
+}
+.description-list {
+    display: flex;
+gap: 24px;
+}
+.description-list-item {
+    width: calc((100% - 72px) / 4);
+}
+.third-title {
+    margin-bottom: 8px;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.team-list {
+    display: flex;
+gap: 24px;
+}
+.secondary-title-active {
+    margin-bottom: 72px;
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
