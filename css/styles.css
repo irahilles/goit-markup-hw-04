@@ -260,3 +260,6 @@ width: 264px;
     display: flex;
     gap: 40px;
 }
+.header-container {
+    display: flex;
+}
