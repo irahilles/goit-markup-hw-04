@@ -69,9 +69,19 @@ padding: 24px 0;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section-title {
+.hero {
     padding: 188px 0;
     background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), rgba(46, 47, 66, 0.7), url(./images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .button {
 font-family: "Roboto", sans-serif;
