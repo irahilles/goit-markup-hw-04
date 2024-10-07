@@ -6,6 +6,15 @@ body {
 a {
     text-decoration: none;
 }
+li {
+    list-style-type: none;}
+
+
+/* -----HEADER----- */
+
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo {
 font-weight: 700;
 font-size: 18px;
@@ -65,6 +74,8 @@ padding: 24px 0;
    color: #404bbf;
 }
 
+/* -------- SECTION HERO ------- */
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -118,6 +129,8 @@ max-width: 496px;
 margin: 0 auto;
 }
 
+/* -------SECTION FEATURES-------- */
+
 .secondary-title {
 font-weight: 700;
 font-size: 36px;
@@ -144,9 +157,7 @@ color: #2e2f42;
 .logo-studio {
     color: #f4f4fd;
 }
-li {
-    list-style-type: none;
-}
+
 .team-section {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -166,9 +177,7 @@ ul {
     padding-left: 0;
 }
 
-header {
-    border-bottom: 1px solid #e7e9fc;
-}
+
 img {
     display: block;
 }
@@ -197,6 +206,7 @@ gap: 24px;
 }
 .team-list-item {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 8);
 }
 .secondary-title-active {
     margin-bottom: 72px;
@@ -216,8 +226,8 @@ row-gap: 48px;
 .portfolio-item {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-item:hover, .portfolio-item:focus {
-    box-shadow: 0, 1px, 6px, rgba(46, 47, 66, 8);
+.portfolio-item:hover {
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 8);
     
 }
 .app-container {
